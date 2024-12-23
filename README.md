@@ -1,20 +1,12 @@
-# Customer Churn Prediction using Artificial Neural Network
+# Customer Churn Prediction
 
-This repository contains a machine learning model built using Artificial Neural Networks (ANN) to predict customer churn based on various features.
+## Overview
+A Streamlit application for predicting customer churn based on various input features.
 
-## Files
+## Live Demo
+You can access the live demo of the application [here](https://ann-churn.streamlit.app/).
 
-- **app.py**: The Streamlit app for user interaction and predictions.
-- **experiments.ipynb**: Jupyter notebook for model training and experimentation.
-- **requirements.txt**: Lists all necessary dependencies.
-- **artifacts**: Folder containing saved models and encoders.
-- **dataset**: Folder containing the dataset used for training the model.
-- **logs**: Folder for storing logs during model training.
-- **utils**: Utility functions, including functions for data preprocessing and model loading.
-
-## Project Description
-
-The model predicts whether a customer is likely to churn based on features such as:
+## Features
 - Geography
 - Gender
 - Age
@@ -23,11 +15,24 @@ The model predicts whether a customer is likely to churn based on features such 
 - Estimated Salary
 - Tenure
 - Number of Products
-- Whether the customer has a credit card
-- Whether the customer is an active member
+- Has Credit Card
+- Is Active Member
 
-## How to Run the Application
+## Installation
+To run the application locally, follow these steps:
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/Himank-Khatri/ANN-Churn-Classification.git
+    ```bash
+    git clone https://github.com/your-username/your-repo.git
+    cd your-repo
+    ```
+
+2. Install the required dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. Run the Streamlit application:
+    ```bash
+    streamlit run app.py
+    ```
