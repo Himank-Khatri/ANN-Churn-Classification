@@ -4,7 +4,7 @@
 A Streamlit application for predicting customer churn based on various input features.
 
 ## Live Demo
-You can access the live demo of the application [here](https://ann-churn.streamlit.app/).
+See the live demo [here](https://ann-churn.streamlit.app/).
 
 ## Features
 - Geography
