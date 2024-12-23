@@ -1,4 +1,5 @@
 logs/
 .venv/
 annclassification.zip
-*/__pychache__
+*/__pychache__/
+utils/__pycache__/__init__.cpython-310.pyc
